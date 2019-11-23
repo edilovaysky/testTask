@@ -1,4 +1,4 @@
-# Development SPA react App for online-school.
+# Development SPA react App.
 
 Написать простенький Weather App:
 
