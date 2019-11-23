@@ -1,0 +1,33 @@
+.hint-wrap {
+  width: 20%;
+  min-height: 5em;
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  background-color: #a1e1e6;
+  border-radius: 0.7em;
+  -webkit-box-shadow: 18px 7px 14px 0px rgba(0, 0, 0, 0.36);
+  -moz-box-shadow: 18px 7px 14px 0px rgba(0, 0, 0, 0.36);
+  box-shadow: 18px 7px 14px 0px rgba(0, 0, 0, 0.36);
+  z-index: 100;
+}
+.hint-wrap p {
+  padding: 0.4em 1em;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+.hint-wrap div {
+  display: flex;
+  justify-content: space-between;
+}
+.hint-wrap span {
+  margin: 0.5em 1em;
+  font-size: medium;
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+.hint-wrap span:hover {
+  cursor: pointer;
+  font-weight: 600;
+  color: rgb(75, 206, 49);
+}

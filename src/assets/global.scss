@@ -1,0 +1,97 @@
+:root {
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #fafafa;
+  color: #262626;
+  padding-bottom: 3rem;
+} */
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 93.5rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+html {
+  margin: 0 auto;
+}
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0.4em 0;
+}
+.intro-h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+body h2 {
+  font-size: 2.8em;
+  font-weight: 700;
+  margin: 0.4em 0;
+}
+body h3 {
+  font-size: 2.6em;
+  font-weight: 600;
+  margin: 0.4em 0;
+}
+body h4 {
+  font-size: 2.4em;
+  font-weight: 500;
+  margin: 0.4em 0;
+}
+body h5 {
+  font-size: 2.2em;
+  font-weight: 400;
+  margin: 0.4em 0;
+}
+
+body p {
+  font-size: 1.8em;
+  font-weight: 400;
+  margin: 0.4em 0;
+}
+.app-wrapper {
+  margin-left: 10%;
+  display: flex;
+  width: 80%;
+  flex-direction: column;
+  justify-content: center;
+}
+.local-weather-wrapper {
+  box-shadow: 0px 0px 33px 0px rgba(3, 3, 3, 0.73);
+  -webkit-box-shadow: 0px 0px 33px 0px rgba(3, 3, 3, 0.73);
+  -moz-box-shadow: 0px 0px 33px 0px rgba(3, 3, 3, 0.73);
+  display: flex;
+  max-width: 80%;
+  margin: 5% 0 0 10%;
+  height: 40em;
+  justify-content: center;
+}

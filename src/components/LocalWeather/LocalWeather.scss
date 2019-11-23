@@ -1,0 +1,9 @@
+.plate-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.plate-wrapper img {
+  width: 10em;
+  height: 10em;
+}
